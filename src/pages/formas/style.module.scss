@@ -1,0 +1,352 @@
+.contenedor1, .contenedor2,
+.contenedor3, .contenedor4,
+.contenedor5, .contenedor6,
+.contenedor7, .contenedor8,
+.contenedor9 {
+    position: absolute;
+    background-color: rgb(231, 226, 226);
+    border: 1px solid rgb(114, 113, 113);
+    border-radius: 5px;    
+    left: 20px;
+    width: 320px;
+    height: 100px;
+    margin: 5px 20px 5px 0px;
+}
+.contenedor1{
+    top: 375px;
+}
+.selector{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(231, 226, 226);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.title{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.contenedor2{    
+    top: 485px;   
+    
+}
+.contenedor3{
+    top: 595px;
+}
+.contenedor4{
+    top: 705px;
+}
+.contenedor5{
+    top: 815px;
+}
+.contenedor6{
+    top: 925px;
+}
+.input{
+    position: relative;
+    top: 30px;
+    padding: .75rem;
+    color: #686868;
+    font-size: 1rem;
+    border-style: none;
+    width: 150px; 
+    margin-left: 10px;   
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.input1{
+    position: relative;
+    background-color: rgb(231, 226, 226);    
+    top: 20px;
+    font-weight: bold;
+    color: #0c0b0b;
+    font-size: 1rem;
+    border-style: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 250px;
+    margin-left: 10px;
+}
+.option{
+    position: relative;
+}
+
+.optionList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 44px;
+    left: 0;
+    width: 100%;
+}
+
+.optionListItem{
+    padding: .5rem;
+    border: 1px solid #666;
+    background-color: white;
+    &:hover {
+        background-color: #eee;
+    }
+}
+.content{
+    padding: 1rem;
+    min-height: calc(1000vh- 64px);    
+    background-color: rgb(237,237,237);
+    box-sizing: border-box;
+}
+
+.texto{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: auto;
+    padding: 10px;    
+    border-radius: 5px;
+    font-size: 12pt;
+    top: 150px;
+    overflow: auto;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.imagen1{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    height: auto;   
+}
+
+.imagen2{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+.imagenExcel{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+}
+.imagenExcel1{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.titulo{
+    position: absolute;
+    top: 110px;
+    left: 45px;    
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(253, 59, 91);
+    z-index: 1000;
+}
+
+.link1, .link2, .link3, .link6, .link7, .linkcontraseña,.linkBienvenido{
+    position: absolute;    
+    text-decoration-line: underline;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 12pt;    
+    color: black;
+    font-weight: bold;
+}
+.link1{   
+    top: 220px;   
+}
+
+.link2{ 
+    top:340px; 
+}
+
+.link3{  
+    top:460px; 
+}
+
+.link4{
+    position: absolute;    
+    text-decoration-line: underline;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 12pt;    
+    color: black;
+    font-weight: bold;
+}
+.link4{ 
+    top:140px; 
+}
+
+.link6{
+    top: 780px;
+}
+
+.link7{
+    top: 815px;
+}
+
+.linkcontraseña{
+    top: 395px;
+}
+
+.linkBienvenido{
+    visibility: hidden;
+}
+
+.linkBienvenido.active{    
+    top: 150px;
+    width: 100%;
+    height: 400px;
+    z-index: 2000px;
+    visibility: visible;
+}
+
+.btnExportar{
+    background-color:  rgb(0, 81, 255);
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.container{
+    position: absolute;
+    top: 200px;
+}
+
+.tableRow{
+    background-color: rgb(233, 229, 229);
+}
+
+.tableHeader{
+    background-color:  rgb(0, 81, 255);
+    font-size: 12pt;
+}
+
+.appBar{
+    position: absolute;
+    width: 520px;
+    height: 24px;
+    top: 120px;
+    background-color: rgb(218, 94, 115);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    & > span{
+        color:white;
+        margin-left:auto;
+        margin-right: auto;
+        font-size: 12pt;        
+    }
+}
+.imagenEncabezado{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 520px;
+    height: 100px;
+}
+
+.titleForm{
+    font-size: 12pt;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    top: 200px;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding-top: 4px;
+}
+
+
+.lblForm{
+    font-size: 12pt;
+    color: black;
+    position: absolute;
+    font-weight: bold;
+    width: 100%;
+    height: 25px;
+    top: 235px;
+    padding-top: 4px;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+}
+
+.txtForm{
+    font-size: 12pt;
+    color: black;
+    position: absolute;
+    width: 97%;
+    top: 270px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.lblForm1{
+    font-size: 12pt;
+    color: black;
+    position: absolute;
+    font-weight: bold;
+    width: 100%;
+    height: 25px;
+    padding-top: 4px;
+    top: 303px;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+}
+
+.txtForm1{
+    font-size: 12pt;
+    color: black;
+    position: absolute;
+    width: 97%;
+    height: 20px;
+    top: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hr{
+    position: absolute;
+    top: 195px;
+    width: 100%;
+    height: 5px;
+    background-color:  rgb(201, 201, 201);
+}
+
+.hr1{
+    position: absolute;
+    top: 370px;
+    width: 100%;
+    height: 5px;
+    background-color:  rgb(201, 201, 201);
+}
+
+.prueba{
+    position: absolute;
+    top: 200px;
+    font-size: 20px;
+}
+
+
