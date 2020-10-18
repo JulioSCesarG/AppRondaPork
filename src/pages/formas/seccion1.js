@@ -1,7 +1,7 @@
 
 //import SelectorMercado from '../formas/selectorMercado';
 //import Presentacion from '../formas/presentacion';
-import React, {Component, useState, Fragment} from 'react';
+import React, { useState} from 'react';
 import Layout from '../../components/layout';
 import styles from './style.module.scss';
 import swal from 'sweetalert';

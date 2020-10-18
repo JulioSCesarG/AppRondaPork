@@ -1,4 +1,4 @@
-import React, { Component, Fragment, useState } from 'react';
+import React, { Component, Fragment } from 'react';
 import styles from './style.module.scss';
 import {RegistroContext} from '../../context/registros';
 import ReactHTMLTableToExcel from 'react-html-table-to-excel';
